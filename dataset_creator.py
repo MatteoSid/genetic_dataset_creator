@@ -3,12 +3,12 @@ import random
 import foldertreemng
 from tqdm import tqdm
 from pathlib import Path
-import matrix_to_image_fn
+import matrix_to_image_fn_flat
 
 create_tree = foldertreemng.create_tree
 clean_tree = foldertreemng.clean_tree
 
-converter_fn = matrix_to_image_fn.converter_fn
+converter_fn = matrix_to_image_fn_flat.converter_fn
 
 def ms(bp, s, l, selestr=0.005, path='', i=24):
     
